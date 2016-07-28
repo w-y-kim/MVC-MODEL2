@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <style>
+        /*배경 패턴이미지*/
+        body {
+            margin: 100px;
+            background: url(http://www.zingerbug.com/Backgrounds/background_images/light_teal_diagonal_stripes_seamless_background_pattern.jpg)  center repeat fixed
+        }
+
+        /*사진 프린트 효과와 그림자*/
+        img {
+
+            background: white;
+            padding-top: 10px;
+            padding-bottom: 60px;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-shadow: 5px 5px 10px #000000;
+        }
+
+        /*사진 하단부 텍스트와 밑줄*/
+        .text_box {
+            position: absolute;
+            margin-top: 310px;
+            margin-left: 180px;
+            width: 220px;
+            text-align: center;
+            font-size: 18px;
+            border-bottom: 1px solid black;
+        }
+
+        /*이미지 회전*/
+        .img_rotate {
+            transform: rotate(-5deg);
+            -ms-transform: rotate(-5deg); /* IE 9 */
+            -webkit-transform: rotate(-5deg); /*Safari and Chrome */
+        }
+        /*웹폰트*/
+        span{
+            font-family: 'Indie Flower', cursive;
+            font-weight: bold;
+        }
+    </style>
+<body>
+<div class=img_rotate>
+    <div class=text_box><span>Do not call me BMO</span></div>
+    <img src="https://67.media.tumblr.com/ea1cca4fa69a82490e233af2e1eb807d/tumblr_nxhkdpTQca1qmtyk0o1_500.gif">
+</div>
+</body>
+</html>
